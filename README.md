@@ -6,6 +6,8 @@
 ## 2. docker image run
   - docker run --rm -p 8080:8080 app-test
 
+![image](https://github.com/khkwon01/docker_example/assets/8789421/2faba833-8733-4f99-87b9-4f9563d8e8eb)
+
 
 # kubernetes_example
 
