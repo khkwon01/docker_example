@@ -9,5 +9,9 @@
 
 # kubernetes_example
 
-## 1. app build
-  - kubectl apply -f 
+## 1. app deployment & service
+  - kubectl apply -f kubernetes-deploy.yaml  (it need docker image files when it deploy)
+  - kubectl get pods (get service on instances)
+  - kubectl get nodes (get service nodes)
+  - kubectl get services (get service associated load-balancer with public ip)
+
