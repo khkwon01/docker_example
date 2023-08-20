@@ -10,6 +10,11 @@
 
 
 # kubernetes_example
+## 1. kubernetes basic architecture
+![image](https://github.com/khkwon01/docker_example/assets/8789421/9308c96b-c203-4b3f-99f7-01f96c239908)
+
+![image](https://github.com/khkwon01/docker_example/assets/8789421/c411bbaf-7e48-4444-ae42-abba2411c66d)
+
 
 ## 1. app deployment & service
   - kubectl apply -f kubernetes-deploy.yaml  (it need docker image files when it deploy)
