@@ -15,6 +15,8 @@
 
 ![image](https://github.com/khkwon01/docker_example/assets/8789421/c411bbaf-7e48-4444-ae42-abba2411c66d)
 
+![image](https://github.com/khkwon01/docker_example/assets/8789421/4d7104ab-0ab5-481b-967f-8fd0fcb2f30d)
+
 
 ## 1. app deployment & service
   - kubectl apply -f kubernetes-deploy.yaml  (it need docker image files when it deploy)
