@@ -7,7 +7,7 @@ metadata:
     app: devops
     tier: frontend
 spec:
-  replicas: 3
+  replicas: 3   # number of pod
   selector:
     matchLabels:
       app: devops
