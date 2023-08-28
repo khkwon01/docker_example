@@ -22,6 +22,10 @@
 ### 1. Volume
 ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/56bd1348-61df-44a7-9a1b-7c32034b26e2)
 
+### 2. PesistentVolume
+![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/3e199de6-69da-4c7a-816e-22fd3323e30c)
+![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/907fec7a-2c19-4ca4-a2d1-f3a1ee87a9ee)
+
 
 ## 1. app deployment & service
   - kubectl apply -f kubernetes-deploy.yaml  (it need docker image files when it deploy)
