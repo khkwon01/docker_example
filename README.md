@@ -35,7 +35,7 @@
     - provide load-balanced access to specified pods (cluster IP, nodeport, load-balancer)
   - kubectl get persistentvolumeclaim
     - deploy : kubectl apply -f pvc-disk.yaml
-
+  - kubectl exec -it <<Pod Name>> -- sh
 
 ## 2. Deployment
 ### 1. Blue/Green Deployment
