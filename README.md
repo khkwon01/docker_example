@@ -30,7 +30,7 @@
 ## 2. Deployment
 ### 2. Canary Deployment
 - Overall archectiture
-![image](https://github.com/khkwon01/docker_example/assets/8789421/c8b84ce3-a448-48dc-80d6-4715efa2fbfc)
+![image](https://github.com/khkwon01/docker_example/assets/8789421/c8b84ce3-a448-48dc-80d6-4715efa2fbfc)  
 
-- How to setup 
+- How to setup    
 ![image](https://github.com/khkwon01/docker_example/assets/8789421/6c1b83fb-1ec8-4d51-8d89-ebd7047686b8)
