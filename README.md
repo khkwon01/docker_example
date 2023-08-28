@@ -36,6 +36,7 @@
   - kubectl get persistentvolumeclaim
     - deploy : kubectl apply -f pvc-disk.yaml
   - kubectl exec -it <<Pod Name>> -- sh
+  - kubectl describe <<Pod Name>>
 
 ## 2. Deployment
 ### 1. Blue/Green Deployment
