@@ -34,6 +34,7 @@
   - kubectl get services (get service associated load-balancer with public ip)
     - provide load-balanced access to specified pods (cluster IP, nodeport, load-balancer)
   - kubectl get persistentvolumeclaim
+    - deploy : kubectl apply -f pvc-disk.yaml
 
 
 ## 2. Deployment
