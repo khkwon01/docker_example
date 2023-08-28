@@ -28,9 +28,16 @@
 
 
 ## 2. Deployment
+### 1. Blue/Green Deployment
+- Overall archectiture
+  ![image](https://github.com/khkwon01/docker_example/assets/8789421/154275ef-4384-4fd0-b006-53d9a4ed5713)
+- How to setup
+  ![image](https://github.com/khkwon01/docker_example/assets/8789421/aa6de144-4090-4f84-9f84-4ca7a533b2b0)
+
+
 ### 2. Canary Deployment
 - Overall archectiture
-![image](https://github.com/khkwon01/docker_example/assets/8789421/c8b84ce3-a448-48dc-80d6-4715efa2fbfc)  
+  ![image](https://github.com/khkwon01/docker_example/assets/8789421/c8b84ce3-a448-48dc-80d6-4715efa2fbfc)  
 
 - How to setup    
-![image](https://github.com/khkwon01/docker_example/assets/8789421/6c1b83fb-1ec8-4d51-8d89-ebd7047686b8)
+  ![image](https://github.com/khkwon01/docker_example/assets/8789421/6c1b83fb-1ec8-4d51-8d89-ebd7047686b8)
