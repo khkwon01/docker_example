@@ -33,6 +33,7 @@
   - kubectl get nodes (get service nodes)
   - kubectl get services (get service associated load-balancer with public ip)
     - provide load-balanced access to specified pods (cluster IP, nodeport, load-balancer)
+  - kubectl get persistentvolumeclaim
 
 
 ## 2. Deployment
