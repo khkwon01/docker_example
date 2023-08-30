@@ -13,6 +13,7 @@
 ## 1. kubernetes basic architecture
 ![image](https://github.com/khkwon01/docker_example/assets/8789421/9308c96b-c203-4b3f-99f7-01f96c239908)
 ![image](https://github.com/khkwon01/docker_example/assets/8789421/8c32f270-3d8e-4099-9357-8e395f77bbc7)
+![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/575390fd-c242-4002-b25c-bff8dfaa9234)
 
 ![image](https://github.com/khkwon01/docker_example/assets/8789421/c411bbaf-7e48-4444-ae42-abba2411c66d)
 
