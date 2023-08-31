@@ -27,8 +27,23 @@
     ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/3e199de6-69da-4c7a-816e-22fd3323e30c)
     ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/907fec7a-2c19-4ca4-a2d1-f3a1ee87a9ee)
 
+## 1. minikube install ( This is only test usage )
+  ```
+  sudo yum install -y yum-utils
+  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+  sudo yum install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 
-## 1. app deployment & service
+  sudo systemctl start docker
+
+  curl -Lo minikube https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+  chmod +x minikube
+  mkdir -p /usr/local/bin
+  sudo install minikube /usr/local/bin
+
+  minikube start --driver="docker"
+  ```
+
+## 2. app deployment & service
   - kubectl apply -f kubernetes-deploy.yaml  (it need docker image files when it deploy)
   - kubectl get pods (get service on instances)
   - kubectl get nodes (get service nodes)
@@ -39,7 +54,7 @@
   - kubectl exec -it <<Pod Name>> -- sh
   - kubectl describe <<Pod Name>>
 
-## 2. Deployment
+## 3. Deployment
 ### 1. Blue/Green Deployment
 - Overall archectiture
   ![image](https://github.com/khkwon01/docker_example/assets/8789421/154275ef-4384-4fd0-b006-53d9a4ed5713)
