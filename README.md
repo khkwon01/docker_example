@@ -53,6 +53,7 @@
     - deploy : kubectl apply -f pvc-disk.yaml
   - kubectl exec -it <<Pod Name>> -- sh
   - kubectl describe <<Pod Name>>
+  - kubectl port-forward Pod/<<Pod Name>> 8080:80
 
 ## 3. Deployment
 ### 1. Blue/Green Deployment
