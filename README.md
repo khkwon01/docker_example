@@ -28,6 +28,10 @@
 ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/3e199de6-69da-4c7a-816e-22fd3323e30c)
 ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/907fec7a-2c19-4ca4-a2d1-f3a1ee87a9ee)
 
+6) Service ( distribute traffic using round-robin logic )
+![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/68ca3593-3668-4639-87db-ddeda64ac29c)
+
+
 ## 1. minikube install ( This is only test usage )
   ```
   sudo yum install -y yum-utils
