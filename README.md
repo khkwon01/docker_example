@@ -54,6 +54,7 @@
   - kubectl exec -it <<Pod_Name>> -- sh
   - kubectl describe <<Pod_Name>>
   - kubectl port-forward Pod/<<Pod_Name>> 8080:80
+  - kubectl get cm (get configmaps info)
 
 ## 3. Deployment
 ### 1. Blue/Green Deployment
