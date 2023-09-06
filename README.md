@@ -51,9 +51,9 @@
     - provide load-balanced access to specified pods (cluster IP, nodeport, load-balancer)
   - kubectl get persistentvolumeclaim
     - deploy : kubectl apply -f pvc-disk.yaml
-  - kubectl exec -it <<Pod Name>> -- sh
-  - kubectl describe <<Pod Name>>
-  - kubectl port-forward Pod/<<Pod Name>> 8080:80
+  - kubectl exec -it <<Pod_Name>> -- sh
+  - kubectl describe <<Pod_Name>>
+  - kubectl port-forward Pod/<<Pod_Name>> 8080:80
 
 ## 3. Deployment
 ### 1. Blue/Green Deployment
