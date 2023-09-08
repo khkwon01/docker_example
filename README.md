@@ -30,6 +30,9 @@
 
 6) Service ( distribute traffic using round-robin logic )    
 ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/68ca3593-3668-4639-87db-ddeda64ac29c)
+- type : NodePort, ClusterIP, Load balancer (Cloud base)
+- check : ReadnessProbe, LivenessProbe
+- firewall : NetworkPolicy
 
 
 ## 1. minikube install ( This is only test usage )
