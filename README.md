@@ -66,6 +66,7 @@
   - kubectl describe <<Pod_Name>>
   - kubectl port-forward Pod/<<Pod_Name>> 8080:80
   - kubectl get cm (get configmaps info)
+  - kubectl rollout status / history / undo / pause / resume <<deployment_name>>
 
 ## 3. Deployment
 ### 1. Blue/Green Deployment
