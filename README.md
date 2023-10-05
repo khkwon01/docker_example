@@ -15,20 +15,23 @@
 ![image](https://github.com/khkwon01/docker_example/assets/8789421/9308c96b-c203-4b3f-99f7-01f96c239908)
 ![image](https://github.com/khkwon01/docker_example/assets/8789421/8c32f270-3d8e-4099-9357-8e395f77bbc7)
 ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/575390fd-c242-4002-b25c-bff8dfaa9234)
+
 2) Deployment    
 ![image](https://github.com/khkwon01/docker_example/assets/8789421/c411bbaf-7e48-4444-ae42-abba2411c66d)
-3) Pod    
+![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/c1fc0764-449a-416e-8cdf-29a85807f55f)
+
+4) Pod    
 ![image](https://github.com/khkwon01/docker_example/assets/8789421/4d7104ab-0ab5-481b-967f-8fd0fcb2f30d)
 ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/2d528bc3-03a7-4389-be83-d8704a6c2fe0)
 
-4) Volume    
+5) Volume    
 ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/56bd1348-61df-44a7-9a1b-7c32034b26e2)
 
-5) PesistentVolume     
+6) PesistentVolume     
 ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/3e199de6-69da-4c7a-816e-22fd3323e30c)
 ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/907fec7a-2c19-4ca4-a2d1-f3a1ee87a9ee)
 
-6) Service ( distribute traffic using round-robin logic )    
+7) Service ( distribute traffic using round-robin logic )    
 ![image](https://github.com/khkwon01/docker_kubernetes/assets/8789421/68ca3593-3668-4639-87db-ddeda64ac29c)
 - type : NodePort, ClusterIP, Load balancer (Cloud base)
 - check : ReadnessProbe, LivenessProbe
